@@ -1,6 +1,6 @@
 "use client"
 
-import type React from "react"
+import * as React from 'react'
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Mail, Calendar, Globe } from "lucide-react"
@@ -40,26 +40,32 @@ export default function FinalCTASection() {
                   <Mail className="h-6 w-6 text-primary flex-shrink-0" />
                   <div>
                     <p className="font-semibold">Contacto</p>
-            <p><a style={{
-  textTransform: 'uppercase',
-  fontSize: '14px',
-  cursor: pointer;
-  padding: '12px 18px',
-  fontFamily: 'inherit',
-  backgroundColor: '#0075E3',
-  border: '1px solid #0075E3',
-  color: '#FFFFFF',
-  borderRadius: '4px',
-  textDecoration: 'none',
-  display: inline-block;
-"}} href="javascript:void(
-        window.open(
-          'https://agent.jotform.com/0199968febfb78ccbfc3cc03a04be4c42e48?embedMode=popup&parentURL='+encodeURIComponent(window.top.location.href),
-          'blank',
-          'scrollbars=yes,toolbar=no,width=700,height=500,top='+(window.outerHeight / 2 - 250)+',left='+(window.outerWidth / 2 - 350)+'',
-        ))">
-            Preguntas y Respuestas
-                </a></p>
+                    <p>
+                      <a
+                        style={{
+                          textTransform: 'uppercase',
+                          fontSize: '14px',
+                          cursor: 'pointer',
+                          padding: '12px 18px',
+                          fontFamily: 'inherit',
+                          backgroundColor: '#0075E3',
+                          border: '1px solid #0075E3',
+                          color: '#FFFFFF',
+                          borderRadius: '4px',
+                          textDecoration: 'none',
+                          display: 'inline-block',
+                        }}
+                        href="javascript:void(
+                          window.open(
+                            'https://agent.jotform.com/0199968febfb78ccbfc3cc03a04be4c42e48?embedMode=popup&parentURL='+encodeURIComponent(window.top.location.href),
+                            'blank',
+                            'scrollbars=yes,toolbar=no,width=700,height=500,top='+(window.outerHeight / 2 - 250)+',left='+(window.outerWidth / 2 - 350)+'',
+                          )
+                        )"
+                      >
+                        Preguntas y Respuestas
+                      </a>
+                    </p>
                   </div>
               
                   

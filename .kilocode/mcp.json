@@ -1,13 +1,5 @@
 {
   "mcpServers": {
-    "filesystem": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "/Users/laces/Downloads/webinar-landing (1)"
-      ]
-    },
     "github": {
       "command": "docker",
       "args": [
