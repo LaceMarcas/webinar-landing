@@ -2,18 +2,12 @@
 
 import { Button } from "@/components/ui/button"
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll"
+import { useScrollToRegistration } from "@/hooks/use-scroll-to-registration"
 import Image from "next/image"
 
 export default function HeroSection() {
   const { scrollToElement } = useSmoothScroll()
-
-  const scrollToRegistration = () => {
-    scrollToElement("registro", {
-      duration: 800,
-      easing: 'easeInOut',
-      offset: 80 // Offset para header sticky
-    })
-  }
+  const { scrollToRegistration } = useScrollToRegistration()
 
   return (
     <section id="inicio" className="relative overflow-hidden bg-gradient-to-b from-card to-background py-20 sm:py-[70px]">

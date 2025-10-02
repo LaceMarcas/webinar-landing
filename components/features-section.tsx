@@ -4,17 +4,11 @@ import { Card, CardContent } from "@/components/ui/card"
 import { TrendingDown, Sun, Shield } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll"
+import { useScrollToRegistration } from "@/hooks/use-scroll-to-registration"
 
 export default function FeaturesSection() {
   const { scrollToElement } = useSmoothScroll()
-
-  const scrollToRegistration = () => {
-    scrollToElement("registro", {
-      duration: 800,
-      easing: 'easeInOut',
-      offset: 80 // Offset para header sticky
-    })
-  }
+  const { scrollToRegistration } = useScrollToRegistration()
 
   const features = [
     {

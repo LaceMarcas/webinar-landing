@@ -4,17 +4,11 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import CountdownTimer from "@/components/countdown-timer"
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll"
+import { useScrollToRegistration } from "@/hooks/use-scroll-to-registration"
 
 export default function CTASection() {
   const { scrollToElement } = useSmoothScroll()
-
-  const scrollToRegistration = () => {
-    scrollToElement("registro", {
-      duration: 800,
-      easing: 'easeInOut',
-      offset: 80 // Offset para header sticky
-    })
-  }
+  const { scrollToRegistration } = useScrollToRegistration()
 
   return (
     <section className="py-20 bg-gradient-to-br from-primary to-secondary">

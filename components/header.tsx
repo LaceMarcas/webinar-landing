@@ -4,11 +4,13 @@ import { Button } from "@/components/ui/button"
 import { Menu } from "lucide-react"
 import { useState } from "react"
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll"
+import { useScrollToRegistration } from "@/hooks/use-scroll-to-registration"
 import Image from "next/image"
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const { scrollToElement } = useSmoothScroll()
+  const { scrollToRegistration } = useScrollToRegistration()
 
   const scrollToSection = (id: string) => {
     scrollToElement(id, {
