@@ -10,7 +10,7 @@ export default function BenefitsSection() {
             ¿Tu Consumo Eléctrico Sigue Aumentando Mes Tras Mes?
           </h2>
           <p className="text-lg text-muted-foreground text-pretty leading-relaxed">
-            Sabemos lo frustrante que es ver cómo tu consumo eléctrico consume una parte cada vez mayor de tu presupuesto.
+            Sabemos lo frustrante que es ver cómo tu consumo eléctrico ocupa una parte cada vez mayor de tu presupuesto.
             Mientras las tarifas eléctricas siguen subiendo, tus ingresos se resiente. Pero hay una solución probada que
             miles de mexicanos ya están aprovechando:{" "}
             <strong className="text-foreground">los sistemas fotovoltaicos</strong>.

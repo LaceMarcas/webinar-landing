@@ -55,11 +55,7 @@ export default function Footer() {
               </div>
               <div className="flex gap-2">
                 <Phone className="h-5 w-5 flex-shrink-0" />
-                <p className="text-sm">+52 55 1234 5678</p>
-              </div>
-              <div className="flex gap-2">
-                <Mail className="h-5 w-5 flex-shrink-0" />
-                <p className="text-sm">contacto@lace.com</p>
+                <p className="text-sm">+52 55 5361 1185</p>
               </div>
             </div>
           </div>

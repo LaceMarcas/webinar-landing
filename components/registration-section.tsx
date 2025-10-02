@@ -99,7 +99,7 @@ export default function RegistrationSection() {
 
         <!-- Privacy policy -->
 
-        <div class="ml-form-embedPermissions" style="">
+        <div class="ml-form-embedPermissions" style="font-size: 12px">
 
           <div class="ml-form-embedPermissionsContent default privacy-policy">
 
@@ -589,7 +589,7 @@ animation: ml-form-embedSubmitLoad 1.2s linear infinite;
   height: auto;
 }
 #mlb2-31470223.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-horizontalRow button:hover {
-  background-color: #EB4100 !important;
+  background-color: #eb4f11ff !important;
   border-color: #EB4100 !important;
 }
 #mlb2-31470223.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-checkboxRow input[type="checkbox"] {
